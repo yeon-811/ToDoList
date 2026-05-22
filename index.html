@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="./src/style/style.css">
+    <script src="./src/js/script.js" defer></script>
+</head>
+<body>
+    
+    <header>
+        
+        <h1>My To Do List</h1>
+        <button id="loginOpenBtn">로그인</button>
+
+    </header>
+
+    <section>
+
+        <div class="list">
+        </div>
+        <div class="input-box">
+
+            <input type="date" id="todo-date">
+             <input type="text" id="todo-name">
+              <input type="email" placeholder="이메일 및 전화번호">
+              <input type="time" id="todo-time">
+              <button id="saveBtn">저장하기</button>
+
+
+        </div>
+
+    </section>
+
+    <footer>
+
+    </footer>
+
+    <div class="slider">
+        <div class="slides">
+            <img src="타마마와 캐로로.jpg">
+            <img src="요괴워치.jpg">
+            <img src="포켓몬스터.jpg">
+            <img src="페이소와 아가들.jpg">
+            <img src="나도.jpg">
+            <img src="햄토리와 생쥐.jpg">
+            <img src="슈퍼 마리오 캐릭터.jpg">
+        </div>
+    </div>
+    
+<div id="loginModal" class="modal">
+  <div class="modal-content">
+    <h2>로그인</h2>
+
+    <input type="text" id="login-name" placeholder="아이디">
+    <input type="password" id="login-password" placeholder="비밀번호">
+
+ <button type="button" id="loginBtn">Login</button>
+
+    <p id="loginMessage"></p>
+  </div>
+</div>
+
+</body>
+
+</html>

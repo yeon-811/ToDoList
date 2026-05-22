@@ -1,0 +1,29 @@
+{
+    "users": [
+        {
+            "name":"tester1",
+            "password": 1234,
+            "age": 10
+        },
+        {
+            "name":"tester2",
+            "password": 1234,
+            "age": 20
+        },
+        {
+            "name":"tester3",
+            "password": 1234,
+            "age": 10
+        },
+        {
+            "name":"tester4",
+            "password": 1234,
+            "age": 30
+        },
+        {
+            "name":"tester5",
+            "password": 1234,
+            "age": 20
+        }
+    ]
+}
